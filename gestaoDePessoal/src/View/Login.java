@@ -74,12 +74,12 @@ public class Login {
 				for (int i = 0; i < motoristas.size(); i++) {
 					if (motoristas.get(i).getIdPessoa() == (p1.getIdPessoa())) {
 //						executa interface de menu motorista
-						new MenuMotorista().setVisible(true);
+
 						break;
 					}
 				}
 //				executa interface de menu pessoa
-				new MenuPessoa().setVisible(true);
+
 			}
 		
 		else {
